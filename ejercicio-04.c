@@ -17,4 +17,4 @@ int main() {
     printf("El valor de resultado2 es: %d \n",resultado2);
     printf("El valor de resultado3 es: %d \n",resultado3);
     return 0;
-}
+} 
