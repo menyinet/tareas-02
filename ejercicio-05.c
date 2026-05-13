@@ -1,0 +1,11 @@
+//determinal si un numero es mayor de 10 y positivo
+#include <stdio.h>
+int main() {
+    int num = 15;
+    //añadir una ventana que permita al usuario ingresar un numero
+   printf("Ingrese un numero: ");
+   scanf("%d", &num);
+    int resultado = (num > 10) && (num >= 0);
+    printf("El valor de resultado es: %d \n", resultado);
+    return 0;
+}
